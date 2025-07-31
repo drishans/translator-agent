@@ -43,7 +43,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ## Usage
 
-### Audio File Translation (Recommended)
+### Audio File Translation
 ```bash
 npm run translate <audio-file>
 ```
