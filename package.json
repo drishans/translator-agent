@@ -1,0 +1,33 @@
+{
+  "name": "realtime-audio-translator",
+  "version": "1.0.0",
+  "description": "Real-time audio translation agent using OpenAI Realtime API",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "cli": "node src/cli.js",
+    "file": "node src/file-translator.js",
+    "translate": "node src/final-translator.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "openai",
+    "realtime",
+    "audio",
+    "translation",
+    "websocket"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.4",
+    "node-fetch": "^3.3.2",
+    "node-record-lpcm16": "^1.0.1",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30"
+  }
+}
